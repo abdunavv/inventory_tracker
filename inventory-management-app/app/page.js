@@ -22,6 +22,7 @@ export default function Home() {
     })
     setInventory(inventoryList)
   }
+  
 
   const addItem = async (item) => {
     const docRef = doc(collection(firestore, 'inventory'), item)
@@ -59,7 +60,7 @@ export default function Home() {
   const handleOpen = () => setOpen(true)
   const handleClose = () => setOpen(false)
 
-  // Define the style object for the modal box
+  // Define the style object for the modal boxes 
   const style = {
     position: 'absolute',
     top: '50%',
