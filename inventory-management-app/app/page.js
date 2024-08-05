@@ -114,7 +114,7 @@ function Home() {
       prev.includes(item) ? prev.filter((i) => i !== item) : [...prev, item]
     );
   };
-
+//hi
   const generateRecipeHandler = async (e) => {
     e.preventDefault();
     setRecipeResult('Loading your recipe... \n It might take up to 10 seconds');
